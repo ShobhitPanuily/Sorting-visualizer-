@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Visulizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Sorting Visulizer</h1>
+    <div id="background-container">
+    <canvas id="myCanvas"></canvas>
+
+    <div>
+      <button id="randomButton">Generate Random Values for sorting </button>
+      <button id="stopButton">Stop Sorting</button>
+      <h4>Select any sorting techniques listed below :</h1>
+        <button id="bubbleSortButton">Bubble Sort</button>
+        <button id="insertionSortButton">Insertion Sort</button>
+        <button id="selectionSortButton">Selection Sort</button>
+        <div class="sort-info">
+            <table id="complexity-table">
+              <tr>
+                <th>Algorithm  </th>
+                <th>Time Complexity  </th>
+                <th>Space Complexity  </th>
+              </tr>
+              <tr id="bubble-sort-info">
+                <td>Bubble Sort  </td>
+                <td> O(n^2) </td>
+                <td>O(1) </td>
+              </tr>
+              <tr id="insertion-sort-info">
+                <td>Insertion Sort</td>
+                <td>O(n^2)</td>
+                <td>O(1)</td>
+              </tr>
+              <tr id="selection-sort-info">
+                <td>Selection Sort</td>
+                <td>O(n^2)</td>
+                <td>O(1)</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <script src="column.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
