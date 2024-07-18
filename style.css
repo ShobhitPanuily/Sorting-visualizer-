@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#background-container {
+    background-size: cover;
+    background-position: center;
+}
+
+.sort-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f7941;
+    color: #fff;
+    cursor: pointer;
+}
+
+#stopButton {
+    background-color: rgb(19, 126, 184);
+}
+
+#bubbleSortButton {
+    background-color: rgb(68, 24, 188);
+}
+
+#insertionSortButton {
+    background-color: rgb(68, 24, 188);
+}
+
+#selectionSortButton {
+    background-color: rgb(68, 24, 188);
+}
+
+.sort-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#complexity-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#complexity-table th,
+#complexity-table td {
+    border: 1px solid #ccf;
+    padding: 10px;
+    text-align: center;
+}
+
+#myCanvas {
+    border: 5px solid #cccccc;
+    margin: 20px auto;
+    display: ruby-text-container;
+}
